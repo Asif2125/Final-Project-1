@@ -1,0 +1,43 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    /*font-family: 'Oswald', sans-serif;
+    font-family: 'Spline Sans', sans-serif; */ 
+    width: 100%;
+    margin: 0;
+}
+
+
+.Top-Banner{
+    display: flex;
+    margin-top: 3%;
+}
+
+.Focused-Part{
+    width: 100%;
+    margin-bottom: 150px;
+    padding-left: 10%;
+    
+}
+.Side-Border{
+    border-left: 4px solid;
+    border-image: linear-gradient(#cee40e, #2c5f03) 1;
+    
+
+}
+.Side-Border h1{
+    font-size: 50px;
+}
+.Span-Color{
+    color: coral;
+}
+.Focused-Part img{
+    width: 80%;
+}
+.Express-Button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(177, 60, 13), rgb(231, 71, 8)  );
+    border-radius: 3px;
+    padding: 7px 15px;
+    color: white;
+    font-weight: 700;
+}
