@@ -107,11 +107,20 @@ h1{
 .Font-Style h3{
     font-size: 50px;
 }
+/* corona part */
+.Font-Style h1{
+    text-align: center;
+}
+
 #corona-header{
     font-size: 50px;
     text-align: center;
     padding: 40px 0;
 }
+
+
+
+/* footer part */
 footer{
     text-align: center;
     background-color: black;
