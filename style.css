@@ -4,14 +4,16 @@ body{
     font-family: 'Spline Sans', sans-serif; */ 
     width: 100%;
     margin: 0;
+    
 }
 
 
 .Top-Banner{
     display: flex;
     margin-top: 3%;
-    margin-left: 15%;
-    padding: 50px;
+}
+.Font-Para{
+    font-size: 21px;
 }
 
 .Focused-Part{
@@ -30,53 +32,61 @@ body{
     font-size: 50px;
 }
 .Span-Color{
-    color: coral;
+    color: #ff944d;
 }
 .Focused-Part img{
     width: 80%;
 }
 .Button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(177, 60, 13), rgb(231, 71, 8)  );
+    background-image: linear-gradient(#ff6666, #ff6666  );
     border-radius: 3px;
-    padding: 7px 15px;
+    padding: 8px 30px;
     color: white;
-    font-weight: 700;
+    font-weight: 400;
 }
-/* second view started */ 
+/* second view started  
 #Mission-Year{
     text-align: center;
     font-size: 50px; 
+}*/
+h1{
+    
+    font-size: 50px;
 }
-.box-width{
-    margin: 5%;  
+.My-Mission-Banner h1{
+    text-align: center;
 }
-.box-width h3{
-    font-size: 25px;
+.box-style{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+.box-side{
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+.box-style h3{
+    font-size: 35px;
 }
 .Mission{
     background-color: rgb(213, 245, 247);
-    border-radius: 15px;
-    margin-right: 5%;
-    padding: 5%;
-    
+    border-radius: 15px; 
+    padding: 30px;
 }
 .img{
-    max-width: 75%;
+    max-width: 25%;
 }
 .Vision{
     background-color: rgb(247, 213, 236);
     border-radius: 10px;
-    margin-right: 5%;
-    padding: 5%;
+    padding: 30px;
     
 }
 .Goals{
     background-color: rgb(232, 206, 253);
-    border-radius: 10px;
-    margin-right: 5%;
-    padding: 5%;
-    
+    border-radius: 10px;   
+    padding: 30px; 
 }
 /* 3rd part */
 .Develop-img{
