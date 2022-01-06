@@ -11,6 +11,7 @@ body{
 .Top-Banner{
     display: flex;
     margin-top: 3%;
+    margin-bottom: 100px;
 }
 .Font-Para{
     font-size: 21px;
@@ -90,15 +91,20 @@ h1{
 }
 /* 3rd part */
 .Develop-img{
-    width: 50%;
+    width: 80%;
 }
 .Develop-View{
     width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5%;
    
 }
 .Develop-Header{
+    font-size: 50px;
+}
+.Font-Style p{
+    font-size: 20px;
+}
+.Font-Style h3{
     font-size: 50px;
 }
 #corona-header{
